@@ -1,0 +1,13 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript", {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "files.exclude": {
+        "**/.git": false
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "vueOrgChart",
+  "version": "1.0.0",
+  "description": "Organization chart",
+  "author": "Michael Hoogkamer",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "dependencies": {
+    "array-from-polyfill": "^1.0.1",
+    "eventsource": "^1.0.7",
+    "file-saver": "^2.0.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "nuxt": "^2.4.3",
+    "nuxt-material-design-icons": "^1.0.4",
+    "panzoom": "^7.1.2",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "vue-async-computed": "^3.5.2",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "acorn": "^6.1.0",
+    "acorn-dynamic-import": "^4.0.0",
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.18.10",
+    "prettier": "1.14.3",
+    "webpack": "4.28.4"
+  }
+}
